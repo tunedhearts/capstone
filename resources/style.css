@@ -1,3 +1,5 @@
+/*universal styles*/
+
 * {
   padding: 0;
   margin: 0;
@@ -8,6 +10,7 @@ html {
   height: 100%;
   background-color: lightgray;
   font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 .wrapper {
@@ -15,6 +18,8 @@ html {
   width: 100%;
   position: relative;
 }
+
+/*header section*/
 
 header {
   background-color: white;
@@ -58,4 +63,59 @@ nav a {
   color: black;
   font-weight: 400;
   margin-left: 8px;
+}
+
+/*banner section*/
+
+.banner-box {
+  display: flex;
+  margin-top: 32px;
+  align-content: flex-s800;
+}
+
+.banner-img {
+    margin-left: 24px;
+    width: 60%;
+}
+
+.banner-img img {
+  width: 100%;
+
+}
+
+.banner-info {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text {
+  margin-left: 24px;
+}
+
+.banner-text h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.banner-text h2 {
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.banner-button {
+  width: 100%;
+}
+
+.banner-info button {
+  padding: 24px;
+  font-size: 1rem;
+  width: 100%;
+  margin-left: 24px;
+  margin-top: 24px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
 }
